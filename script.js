@@ -43,5 +43,4 @@ function copiar() {
     var contenido = document.querySelector("#textoDesencriptado");
     contenido.select();
     document.execCommand("copy"); 
-    alert("se copio"); 
 }
